@@ -48,6 +48,30 @@ To replicate this project, follow these steps:
    - **ffmpeg:** Required for audio processing.
    - **Torch & NumPy:** Specific versions are used for compatibility.
    - Other libraries such as `scipy`, `pydub`, and `deepl` are also required. Please refer to the notebook for the complete list.
+### 🖥️ MacOS Installation Notes
+
+If you're using macOS for local setup, follow these platform-specific steps in addition to the general setup:
+
+1. **Ensure Homebrew is Installed:**
+   If not already installed, you can install Homebrew with:
+   ```bash
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   ```
+2. **Install ffmpeg via Homebrew:**
+   ```bash
+   brew install ffmpeg
+   ```
+
+3. **Create and Activate Virtual Environment:**
+   ```bash
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+
+4. **Install Dependencies:**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
 ## Usage
 
